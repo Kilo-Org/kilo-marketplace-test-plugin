@@ -1,0 +1,14 @@
+{
+  "name": "kilo-marketplace-test-plugin",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "Test fixture plugin for verifying Kilo Marketplace plugin loading.",
+  "exports": {
+    "./server": "./server.js",
+    "./tui": "./tui.js"
+  },
+  "engines": {
+    "opencode": ">=1.0.0"
+  }
+}
